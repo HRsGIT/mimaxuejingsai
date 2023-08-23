@@ -15,6 +15,6 @@ QColor AnimatedLabel::color(){
 // 鼠标点击操作
 void AnimatedLabel::mouseReleaseEvent(QMouseEvent * ev){
     if(ev->button() == Qt::LeftButton) {
-        emit clicked();	// 发射信号
+        emit clicked();	// 发射信号 hrggxpgg tql
     }
 }
